@@ -4,7 +4,9 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Restaurancy",
+  title: "Restaurancy - Hello World",
+  description: "la mejor aplicacion de restaurantes del mundo",
+  keywords: ["restaurant", "comida", "food", "cena", "meriendas", "bares"],
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
